@@ -14,7 +14,7 @@ def lineParserPostings(s: str) -> dict:
     postings = []
     count = 0
 
-    firstSplit = s.split(':', 1)
+    firstSplit = s.split('<:>', 1)
     term = firstSplit[0]
 
     #splits all the different occurances in different documents
