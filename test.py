@@ -129,3 +129,4 @@ def mainSearchProgram():
             results = search(query, dictionary, postings, corpus)
             print(results)
 
+mainSearchProgram()
